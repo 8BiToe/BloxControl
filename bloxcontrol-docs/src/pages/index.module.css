@@ -1,0 +1,51 @@
+/* src/pages/index.module.css */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  background-color: var(--ifm-background-color); /* Default background */
+  /* Add padding or other section-level styling here */
+}
+
+.disclaimerSection {
+  background-color: var(--ifm-color-emphasis-100); /* Slightly different background for disclaimer */
+  border-top: 1px solid var(--ifm-fieldset-border-color);
+  border-bottom: 1px solid var(--ifm-fieldset-border-color);
+}
+
+.quickLinksGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the quick link items */
+  gap: var(--ifm-spacing-md); /* Space between cards */
+  margin-top: var(--ifm-spacing-lg);
+}
+
+/* Ensure Button takes full width of its column */
+.quickLinkItem {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Make all items the same height if content varies */
+}
+
+.quickLinkItem > * {
+  width: 100%; /* Ensure button takes full width of its parent col */
+  height: 100%; /* Ensure button takes full height */
+}

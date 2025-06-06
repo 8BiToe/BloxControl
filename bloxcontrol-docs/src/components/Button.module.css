@@ -1,0 +1,100 @@
+/* src/components/Button.module.css */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: var(--ifm-button-border-radius);
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  cursor: pointer;
+  border: none;
+  font-size: var(--ifm-font-size-base);
+  min-height: 2.75rem;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+/* Primary Button */
+.primary {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+}
+.primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Secondary Button */
+.secondary {
+  background-color: var(--ifm-color-secondary);
+  color: var(--ifm-color-white);
+}
+.secondary:hover {
+  background-color: var(--ifm-color-secondary-dark);
+}
+
+/* Cover Button (for your "Quick Links" section) */
+.cover {
+  position: relative; /* Crucial for positioning the pseudo-element overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.5rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: var(--ifm-color-emphasis-100);
+  background-size: cover;
+  background-position: center;
+  color: var(--ifm-font-color-base);
+  border: 1px solid var(--ifm-fieldset-border-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+  text-align: left;
+  margin: var(--ifm-spacing-md);
+  box-sizing: border-box;
+  overflow: hidden; /* Important for border-radius to clip overlay */
+}
+
+/* The Overlay Pseudo-element */
+.cover::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay, 40% opacity (adjust as needed) */
+  z-index: 1; /* Place it above the background image, but below the text */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Optional: Darken overlay slightly on hover */
+.cover:hover::before {
+  background-color: rgba(0, 0, 0, 0.5); /* Slightly darker on hover */
+}
+
+/* Ensure text content is above the overlay */
+.cover h3 {
+  position: relative; /* Position text above the overlay */
+  z-index: 2; /* Make sure text is on top */
+  margin-bottom: 0;
+  color: white; /* Make text white for better contrast on dark overlay */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* Optional: add text shadow for more readability */
+}
+
+/* Ensure other potential content within .cover is above the overlay */
+.cover > *:not(h3) { /* Target direct children that aren't h3 */
+  position: relative;
+  z-index: 2;
+}
+
+/* Keep the previous hover styles for the button itself if desired */
+.cover:hover {
+  background-color: var(--ifm-color-emphasis-200); /* Example, might be overridden by pseudo-element hover */
+  box-shadow: var(--ifm-global-shadow-md);
+}
