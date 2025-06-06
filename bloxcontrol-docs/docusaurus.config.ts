@@ -76,7 +76,7 @@ const config: Config = {
 
     image: 'img/banner.png',
     navbar: {
-      title: 'BloxControl Docs',
+      title: 'BloxControl Docs ',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
