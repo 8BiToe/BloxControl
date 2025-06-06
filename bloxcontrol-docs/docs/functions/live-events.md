@@ -5,7 +5,7 @@
 This page already considers that you have required and authorized BloxControl at least once in the same script. [Click here](/docs/functions/authentication) for more information.
 :::
 
-```
+```lua
 local upcomingevents = bloxcontrol.GetUpcomingEvents()
 if upcomingevents["success"] == false then
 	-- there was an issue with the request. use result["message"] to get the details of the error.

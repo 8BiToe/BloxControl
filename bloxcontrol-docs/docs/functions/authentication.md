@@ -9,7 +9,7 @@ Make sure you add the code in a **server script** stored in **ServerScriptServic
 Replace GAME-TOKEN with the Game Token that you were provided during registering the experience to BloxControl.
 :::
 
-```
+```lua
 local bloxcontrol = require(102314745163727)
 bloxcontrol.Auth("GAME-TOKEN")
 ```
