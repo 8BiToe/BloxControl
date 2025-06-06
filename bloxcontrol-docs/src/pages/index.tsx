@@ -38,7 +38,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Home | ${siteConfig.title}`} // Custom browser tab title
+      title={`Home`} // Custom browser tab title
       description="BloxControl is a dynamic game management tool for Roblox experiences that allows developers to update game data without republishing their games.">
       <HomepageHeader />
       <main>
