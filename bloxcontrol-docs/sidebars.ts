@@ -20,6 +20,11 @@ const sidebars: SidebarsConfig = {
       id: 'index',
     },
     {
+      type: 'doc',
+      label: 'Download',
+      id: 'download',
+    },
+    {
       type: 'category',
       label: 'Getting Started',
       items: [
