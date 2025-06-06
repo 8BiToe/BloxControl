@@ -50,7 +50,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`Home | ${siteConfig.title}`} // Custom browser tab title
-      description="InvenTutor provides high-quality tutorials for Inventor.gg.">
+      description="BloxControl is a dynamic game management tool for Roblox experiences that allows developers to update game data without republishing their games.">
       <HomepageHeader />
       <main>
         {/* About Section */}
@@ -59,7 +59,7 @@ export default function Home(): ReactNode {
             <div className="row">
               <div className="col col--10 col--offset-1">
                 <Heading as="h2">About</Heading>
-                <p>We aim to make the best Inventor.gg tutorials that are made with users in mind. We focus on providing high-quality content to our users, explaining every part carefully in a way that everyone will understand why we use it and how it works.</p>
+                <p>BloxControl is a dynamic game management tool for Roblox experiences that allows developers to update game data without republishing their games.</p>
               </div>
             </div>
           </div>
