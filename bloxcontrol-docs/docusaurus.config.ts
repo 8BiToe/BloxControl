@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '8BiToe', // Usually your GitHub org/user name.
-  projectName: 'BloxControl', // Usually your repo name.
+  projectName: 'bloxcontrol', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
