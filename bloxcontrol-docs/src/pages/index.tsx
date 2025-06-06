@@ -14,19 +14,8 @@ import styles from './index.module.css'; // Ensure this file exists and contains
 // Define your quick links data
 const QuickLinksData = [
   {
-    title: '🎬 How to create Moderation Commands',
-    link: '/t/b/create-moderation-commands',
-    // Add an optional background image for the "cover" button
-    backgroundImage: 'url(/home/mod-cmds.png)', // Make sure this image exists in static/img/
-  },
-  {
-    title: '🧩 ER:LC API Commands',
-    link: '/p/dev/erlc-api-commands', // Adjust link if this points to a specific API doc
-    backgroundImage: 'url(/home/erlc.png)', // Make sure this image exists in static/img/
-  },
-  {
     title: '💬 Join the Community',
-    link: 'https://dsc.gg/inventutor', // External link
+    link: 'https://discord.com', // External link
     backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
   },
 ];
