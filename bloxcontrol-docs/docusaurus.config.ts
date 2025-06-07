@@ -79,7 +79,7 @@ const config: Config = {
       title: 'BloxControl Docs',
       logo: {
         alt: 'BloxControl Logo',
-        src: 'img/logo.svg',
+        src: 'img/icon.png',
       },
       items: [
         {
