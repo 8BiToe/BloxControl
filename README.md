@@ -18,6 +18,12 @@ Full documentation is available at our [official documentation site](https://8bi
 - Usage examples
 - Best practices
 
+## Tech stack
+- Lua
+- Inventor.gg
+- Docusaurus
+- Discord
+
 ## License
 
 BloxControl is proprietary software. All rights reserved.
