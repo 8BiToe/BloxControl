@@ -32,7 +32,7 @@
 }
 
 .footer {
-  background-color: #5a1c30;
+  background-color: #6d2139;
 
   /* background-color: #2e8555; /* Docusaurus green */
   /* background-color: #f0f0f0; /* Light grey */
@@ -55,4 +55,28 @@
 
 .pagination-nav {
   display: none;
+}
+
+/* Target the Docusaurus navbar explicitly */
+.navbar {
+  background-color: #6d2139; /* Your desired color */
+  /* This is important: ensure it doesn't inherit default variables */
+  background-image: none; /* Remove any default gradient */
+}
+
+
+/* If the above doesn't work, let's try overriding the theme variables */
+/* This is a common Docusaurus pattern */
+:root {
+  --ifm-navbar-background-color: #6d2139; /* For light mode */
+  /* --ifm-navbar-shadow: none; */ /* Optional: remove navbar shadow */
+}
+
+html[data-theme='dark'] {
+  --ifm-navbar-background-color: #6d2139; /* For dark mode */
+}
+
+/* Ensure navbar items inherit text color if needed */
+.navbar__item.navbar__link {
+  color: var(--ifm-navbar-link-color); /* Or direct color like #ffffff */
 }
