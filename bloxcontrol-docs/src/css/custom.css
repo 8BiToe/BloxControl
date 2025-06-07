@@ -52,3 +52,7 @@
   color: #FF5289;
   text-decoration: underline;
 }
+
+.pagination-nav {
+  display: none;
+}

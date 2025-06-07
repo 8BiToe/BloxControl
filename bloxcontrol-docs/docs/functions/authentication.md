@@ -13,7 +13,3 @@ Replace GAME-TOKEN with the Game Token that you were provided during registering
 local bloxcontrol = require(102314745163727)
 bloxcontrol.Auth("GAME-TOKEN")
 ```
-
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />

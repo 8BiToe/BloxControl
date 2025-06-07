@@ -14,7 +14,7 @@ BloxControl is a dynamic game management tool for Roblox experiences that allows
 
 ## Support
 
-For support, join our [Discord community](https://discord.com). (TBA)
+For support, join our [Discord community](https://dsc.gg/bitoe). (TBA)
 
 ## Links
 

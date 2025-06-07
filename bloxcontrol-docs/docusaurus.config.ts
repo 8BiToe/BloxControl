@@ -94,11 +94,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Functions',
           items: [
             {
-              label: 'Docs',
-              to: '/docs',
+              label: 'Promo Codes',
+              to: '/docs/functions/promocodes',
+            },
+            {
+              label: 'Remote Config',
+              to: '/docs/functions/remote-config',
+            },
+            {
+              label: 'Live Events',
+              to: '/docs/functions/live-events',
             },
           ],
         },
@@ -108,7 +116,7 @@ const config: Config = {
             
             {
               label: 'Discord',
-              href: 'https://discord.com',
+              href: 'https://dsc.gg/bitoe',
             },
             {
               label: 'Roblox Group',
@@ -122,6 +130,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['lua'],
     },
   } satisfies Preset.ThemeConfig,
 };

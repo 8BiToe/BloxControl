@@ -14,8 +14,23 @@ import styles from './index.module.css'; // Ensure this file exists and contains
 // Define your quick links data
 const QuickLinksData = [
   {
-    title: '💬 Join the Community',
-    link: 'https://discord.com', // External link
+    title: 'Promo Codes',
+    link: 'https://8bitoe.github.io/bloxcontrol/docs/functions/promocodes', // External link
+    backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
+  },
+  {
+    title: 'Remote Config',
+    link: 'https://8bitoe.github.io/bloxcontrol/docs/functions/remote-config', // External link
+    backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
+  },
+  {
+    title: 'Live Events',
+    link: 'https://8bitoe.github.io/bloxcontrol/docs/functions/live-events', // External link
+    backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
+  },
+  {
+    title: 'Discord Support',
+    link: 'https://dsc.gg/bitoe', // External link
     backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
   },
 ];

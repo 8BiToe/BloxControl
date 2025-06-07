@@ -23,4 +23,4 @@ BloxControl is proprietary software. All rights reserved.
 
 ## Support
 
-For support, join our [Discord community](https://discord.com). (TBA)
+For support, join our [Discord community](https://dsc.gg/bitoe). (TBA)
