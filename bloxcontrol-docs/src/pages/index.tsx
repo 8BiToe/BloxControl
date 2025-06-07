@@ -28,11 +28,6 @@ const QuickLinksData = [
     link: 'https://8bitoe.github.io/bloxcontrol/docs/functions/live-events', // External link
     backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
   },
-  {
-    title: 'Discord Support',
-    link: 'https://dsc.gg/bitoe', // External link
-    backgroundImage: 'url(/home/discord.png)', // Make sure this image exists in static/img/
-  },
 ];
 
 function HomepageHeader() {
