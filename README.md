@@ -24,6 +24,16 @@ Full documentation is available at our [official documentation site](https://8bi
 - Docusaurus
 - Discord
 
+## Star History
+
+<a href="https://www.star-history.com/#8BiToe/bloxcontrol&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=8BiToe/bloxcontrol&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=8BiToe/bloxcontrol&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=8BiToe/bloxcontrol&type=Date" />
+ </picture>
+</a>
+
 ## License
 
 BloxControl is proprietary software. All rights reserved.
